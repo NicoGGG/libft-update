@@ -6,7 +6,7 @@
 #    By: nguelfi <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/05/06 17:26:51 by nguelfi           #+#    #+#              #
-#    Updated: 2017/05/06 18:15:58 by nguelfi          ###   ########.fr        #
+#    Updated: 2017/05/12 18:30:19 by nguelfi          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -23,7 +23,7 @@ ft_isprint.c ft_memchr.c ft_putnbr.c ft_strdup.c ft_strncmp.c ft_tolower.c \
 ft_itoa.c ft_memcmp.c ft_putnbr_fd.c ft_strequ.c ft_strncpy.c ft_toupper.c \
 ft_lstadd.c ft_memcpy.c ft_putstr.c ft_striter.c ft_strnequ.c ft_factorial.c \
 ft_power.c ft_swap_int.c ft_sort_int_table.c ft_strjoinch.c ft_strjoinfree.c \
-ft_strjoinchfree.c ft_strdupch.c ft_strrenew.c ft_strlench.c
+ft_strjoinchfree.c ft_strdupch.c ft_strrenew.c ft_strlench.c ft_tabdel.c
 
 OBJ = ${SRC:.c=.o}
 INCLUDE = .
