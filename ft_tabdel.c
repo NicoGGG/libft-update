@@ -6,11 +6,12 @@
 /*   By: nguelfi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/12 18:22:20 by nguelfi           #+#    #+#             */
-/*   Updated: 2017/05/12 18:29:55 by nguelfi          ###   ########.fr       */
+/*   Updated: 2017/05/12 18:30:38 by nguelfi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdlib.h>
+#include "libft.h"
 
 void	ft_tabdel(void ***tab)
 {
