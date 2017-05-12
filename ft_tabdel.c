@@ -6,7 +6,7 @@
 /*   By: nguelfi <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/05/12 18:22:20 by nguelfi           #+#    #+#             */
-/*   Updated: 2017/05/12 18:26:35 by nguelfi          ###   ########.fr       */
+/*   Updated: 2017/05/12 18:29:55 by nguelfi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,9 @@ void	ft_tabdel(void ***tab)
 	int i;
 
 	i = 0;
-	while (tab[i])
+	while (*tab[i])
 	{
-		ft_memdel(&tab[i]);
+		ft_memdel(tab[i]);
 		i++;
 	}
 	free(tab);
